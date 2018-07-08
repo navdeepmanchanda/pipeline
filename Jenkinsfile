@@ -7,5 +7,6 @@ node {
       branch      = "master"
       credentials = "git"
       maven_goals = "clean install -Dmaven.test.skip=true"
+      pom_path    = "EmployeeAutomation/pom.xml"
    }
 }
